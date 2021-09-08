@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-color: #212121;
@@ -8,8 +18,10 @@
 body {
   background-color: var(--primery-white-color);
   color: var(--primary-text-color);
+  margin: 0%;
 
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, sans-serif;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -81,13 +93,15 @@ h2 {
 
 /* hero */
 .hero {
-  background: #2f303a;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+}
+.hero {
+  display: inline-block;
+  background: #2f303a;
 }
 
 .hero .title {
@@ -96,13 +110,18 @@ h2 {
 
 .baton {
   color: var(--primery-white-color);
-  background-color: var(--bg-focus-hover-blue);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 }
 
+.baton {
+  display: inline-block;
+  background-color: blue;
+
+  border: ;
+}
 /* section Чем мы занимаемся */
 
 .selection .name {
