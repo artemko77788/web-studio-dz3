@@ -116,15 +116,11 @@ h2 {
   line-height: 1.87;
 }
 
-.baton {
+.batton {
   display: inline-block;
   background-color: aqua;
 }
-.cont {
-  display: block;
-  background-color: aqua;
-  padding: 23, 32;
-}
+
 /* section Чем мы занимаемся */
 
 .selection .name {
