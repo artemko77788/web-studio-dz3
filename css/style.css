@@ -1,12 +1,11 @@
-/* html {
+html {
   box-sizing: border-box;
-} */
-
-/* *,
+}
+* * *,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
 :root {
   --primary-text-color: #757575;
@@ -39,7 +38,7 @@ h2 {
   list-style: none;
 }
 
-/* logo color */
+/* logo heder */
 
 .logo {
   color: #000000;
@@ -58,7 +57,7 @@ h2 {
   color: var(--bg-focus-hover-blue);
 }
 
-/* color nav heder site-nav */
+/*  heder site-nav */
 
 .site-nav .link {
   color: var(--title-color);
@@ -92,33 +91,51 @@ h2 {
 }
 
 /* hero */
+
 .hero {
+  display: inline-block;
+  background: #2f303a;
+  width: 1670px;
+  height: 600px;
+  text-align: center;
+}
+
+.hero .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
-}
-.hero {
+
   display: inline-block;
-  background: #2f303a;
-}
 
-.hero .title {
   color: var(--primery-white-color);
-}
-
-.baton {
-  color: var(--primery-white-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  margin-left: 452px;
+  margin-right: 452px;
 }
 
 .batton {
+  color: var(--primery-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
   display: inline-block;
-  background-color: aqua;
+  background-color: #2196f3;
+  border-radius: 4px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 200px;
+  margin-left: 700px;
+  margin-right: 700px;
+}
+.batton:hover,
+.batton:focus {
+  background-color: #188ce8;
 }
 
 /* section Чем мы занимаемся */
