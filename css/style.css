@@ -127,11 +127,12 @@ h2 {
 /* hero */
 
 .hero {
-  background: #2f303a;
+  background-color: #c4c4c4;
   text-align: center;
   margin-bottom: 94px;
   padding-top: 190px;
   padding-bottom: 210px;
+  background-image: url();
 }
 
 .hero .title {
@@ -252,6 +253,7 @@ h2 {
 }
 
 .list-team .item {
+  background-color: var(--primery-white-color);
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
